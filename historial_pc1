@@ -1,0 +1,588 @@
+sudo fdisk -l
+tree 
+tree --version
+ll
+cat .ssh/
+ls -l .ssh/
+ll .ssh/
+vim etc/fstab
+cat etc/fstab
+ll
+cat /etc/fstab 
+ll /etc/fstab 
+free -h
+git --version
+ll .ssh/
+ll .ssh/authorized_keys 
+ls -ld .ssh/
+ll
+man asccii
+man ascci
+man ascii
+LS -LH
+ls -lh
+git --version
+tree --version
+sudo apt update && sudo apt install -y tree
+tree --version
+ll
+tree .ssh/
+ll .ssh/id_ed25519.pub 
+cat .ssh/id_ed25519.pub 
+git status
+cat .ssh/
+ll .ssh/
+cat .ssh/id_ed25519.pub 
+ll
+mkdir repogit
+ll
+cd repogit/
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+ll
+git clone git@github.com:adrianvillagomez/UTNFRA_SO_1P2C_2024_VILLAGOMEZ.git
+cat .ssh/
+cd
+cat .ssh/id_ed25519.pub 
+cd repogit/
+git clone git@github.com:adrianvillagomez/UTNFRA_SO_1P2C_2024_VILLAGOMEZ.git
+git status
+git clone git@github.com:adrianvillagomez/UTNFRA_SO_1P2C_2024_VILLAGOMEZ.git
+ll
+./UTN-FRA_SO_Examenes//202410/script_Precondicion.sh 
+~/.bashrc  && history -a
+sudo ~/.bashrc  && history -a
+sudo su
+source  ~/.bashrc  && history -a
+ll
+ll UTNFRA_SO_1P2C_2024_VILLAGOMEZ/
+tree UTNFRA_SO_1P2C_2024_VILLAGOMEZ/
+ll
+tree UTN-FRA_SO_Examenes/
+ll
+cd UTNFRA_SO_1P2C_2024_VILLAGOMEZ/
+vim README.md 
+man history
+cat ~/.bash_history
+ll
+tree RTA_SCRIPT_Examen_20241005/
+vim RTA_SCRIPT_Examen_20241005/Punto_A.sh 
+ls -l RTA_SCRIPT_Examen_20241005/
+cd RTA_SCRIPT_Examen_20241005/
+./Punto_A.sh
+chmod 775 Punto_A.sh 
+./Punto_A.sh
+ls -l ~
+cd
+ll
+tree Examenes-UTN/
+rm -rf Examenes-UTN/
+mkdir -p Examenes-UTN/{alumno_{1..3}/parcial_{1..3},profesores}
+tree Examenes-UTN/
+ll
+rm -rf Examenes-UTN/
+tree Examenes-UTN/
+cd repogit/UTNFRA_SO_1P2C_2024_VILLAGOMEZ/
+LL
+ll
+cd  RTA_SCRIPT_Examen_20241005/
+ll
+vim Punto_A.sh 
+./Punto_A.sh 
+cd
+tree Examenes-UTN/
+ll
+cd repogit/UTNFRA_SO_1P2C_2024_VILLAGOMEZ/
+git status
+git add .
+git commit -m "PuntoA"
+git status
+git commit -m "PuntoA,ssh"
+git push -u origin main
+ll
+vim RTA_SCRIPT_Examen_20241005/Punto_B.sh 
+chmod 775 RTA_SCRIPT_Examen_20241005/Punto_B.sh 
+./RTA_SCRIPT_Examen_20241005/Punto_B.sh 
+sudi fdisk -l
+sudo fdisk -l
+vim RTA_SCRIPT_Examen_20241005/Punto_B.sh 
+sudo fdisk -l
+vim RTA_SCRIPT_Examen_20241005/Punto_B.sh 
+sudo fdisk /dev/sde
+vim RTA_SCRIPT_Examen_20241005/Punto_B.sh 
+f disk -l
+sudo fdisk -l
+sudo fdisk /dev/sde
+./RTA_SCRIPT_Examen_20241005/Punto_B.sh 
+git status
+git add .
+git commit -m "PuntoB_Particion"
+git push -u origin main
+ll
+mkdir RTA_SCRIPT_Examen_20241005/Punto_B_Formateo.sh
+vim RTA_SCRIPT_Examen_20241005/Punto_B_Formateo.sh 
+tree RTA_SCRIPT_Examen_20241005/
+vim RTA_SCRIPT_Examen_20241005/Punto_B.sh 
+vim RTA_SCRIPT_Examen_20241005/Punto_B_Formateo.sh 
+cd RTA_SCRIPT_Examen_20241005/
+rm -rf Punto_B_Formateo.sh/
+tree
+touch Punto_B_Formateo.sh 
+tree
+vim Punto_B_Formateo.sh 
+cd
+sudo fdisk -l /dev/sde |grep /dev/sde |grep -viE 'Disk|exten' |awk '{print "sudo mkfs.ext4 "$1}"
+sudo fdisk -l /dev/sde |grep /dev/sde |grep -viE 'Disk|exten'
+sudo fdisk -l /dev/sde 
+sudo fdisk -l /dev/sde |grep /dev/sde 
+sudo fdisk -l /dev/sde |grep /dev/sde |grep -viE 'Disk|exten'
+sudo fdisk -l /dev/sde |grep /dev/sde |grep -viE 'Disk|exten' |awk '{print "sudo mkfs.ext4 "$1}'
+cd repogit/UTNFRA_SO_1P2C_2024_VILLAGOMEZ/RTA_SCRIPT_Examen_20241005/
+tree
+vim Punto_B_Formateo.sh 
+sudo blkid
+vim Punto_B_Formateo.sh 
+chmod 775 Punto_B_Formateo.sh 
+./Punto_B_Formateo.sh 
+git status
+cd ../
+git add .
+git commit -m "PuntoB_Formateo"
+gut push -u origin main
+git push -u origin main
+PWD
+pwd
+ll
+cd RTA_SCRIPT_Examen_20241005/
+tree
+touch Punto_B_MontarPersistente.sh
+sudo fdisk -l
+sudo fdisk -l |grep "10 Gib"
+sudo fdisk -l |grep "10 GiB"
+sudo fdisk -l |grep "10 GiB" |awk '{print $2}'|awk -F ':' '{print $1}'
+man grep
+grep -c /dev/sde /etc/fstab
+grep  /dev/sde /etc/fstab
+cat /etc/fstab
+sudo fdisk -l
+sudo blkid
+tree
+vim Punto_B_MontarPersistente.sh 
+chmod 775 Punto_B_MontarPersistente.sh 
+./Punto_B_MontarPersistente.sh 
+tree
+vim Punto_B_MontarPersistente.sh 
+./Punto_B_MontarPersistente.sh 
+vim Punto_B_MontarPersistente.sh 
+./Punto_B_MontarPersistente.sh 
+vim Punto_B_MontarPersistente.sh 
+vim Punto_B_Formateo.sh 
+vim Punto_B_MontarPersistente.sh 
+./Punto_B_MontarPersistente.sh 
+vim Punto_B_MontarPersistente.sh 
+./Punto_B_MontarPersistente.sh 
+vim Punto_B_MontarPersistente.sh 
+./Punto_B_MontarPersistente.sh 
+vim Punto_B_MontarPersistente.sh 
+./Punto_B_MontarPersistente.sh 
+df -lh
+vim /etc/fstab 
+df -h
+vim Punto_B_MontarPersistente.sh 
+grep -c $DISCO /etc/fstab 
+grep -c /dev/sde /etc/fstab 
+vim Punto_B_MontarPersistente.sh 
+./Punto_B_MontarPersistente.sh 
+df -h 
+sudo mount -a
+vim Punto_B_MontarPersistente.sh 
+cat /etc/fstab
+df -h
+cat /etc/fstab
+vim /etc/fstab
+vim Punto_B_MontarPersistente.sh 
+./Punto_B_MontarPersistente.sh 
+df -h
+vim /etc/fstab
+sudo vim /etc/fstab
+./Punto_B_MontarPersistente.sh 
+cat  ~/Examenes-UTN/alumno_1/parcial_1
+df -h
+ls  ~/Examenes-UTN/alumno_1/parcial_1
+ls  ~/Examenes-UTN/alumno_1/
+sudo vim /etc/fstab
+vim Punto_B_MontarPersistente.sh 
+./Punto_B_MontarPersistente.sh 
+f disk -l
+sudo fdisk -l
+tree  /Examenes-UTN/alumno_1/parcial_1
+tree  ~/Examenes-UTN/alumno_1/parcial_1
+cd
+ll
+Examenes-UTN/
+tree Examenes-UTN/
+cd Examenes-UTN/
+CD alumno_1
+cd alumno_1
+cd parcial_1
+pwd
+cd /home/vagrant/Examenes-UTN/alumno_1/parcial_1
+cd
+ll
+cd repogit/UTNFRA_SO_1P2C_2024_VILLAGOMEZ/
+ll
+cd RTA_SCRIPT_Examen_20241005/
+tree
+vim Punto_B_MontarPersistente.sh 
+sudo vim /etc/fstab 
+vim Punto_B_MontarPersistente.sh 
+df -h
+vim Punto_B_MontarPersistente.sh 
+sudo mount /home/vagrant/Examenes-UTN/alumno_1/parcial_3
+sudo vim /etc/fstab 
+sudo mount /home/vagrant/Examenes-UTN/alumno_1/parcial_3
+df -h
+cd ../
+git status
+git add .
+git commit -m  "PuntoB_MontajePersistente"
+git push -u origin main
+git status
+sudo fdik -l
+sudo fdisk -l
+df -h
+sudo fdisk -l
+td -h
+df -th
+df -Th
+tree Examenes-UTN/
+ll Examenes-UTN/alumno_1/parcial_1
+tree
+LL
+ll
+cd repogit/UTNFRA_SO_1P2C_2024_VILLAGOMEZ/
+ll
+cd RTA_SCRIPT_Examen_20241005/
+ll
+vim Punto_C.sh
+sudo grep pepe /etc/shadow
+sudo grep vagrant /etc/shadow
+cat /etc/shadow
+sudo cat /etc/shadow
+sudo grep vagrant /etc/shadow | awk -F ':' '{print $2}')
+sudo grep vagrant /etc/shadow | awk -F ':' '{print $2}'
+man grep
+sudo grep vagrant /etc/passwd
+sudo grep vagrant -c /etc/passwd
+man grep
+sudo grep vagrant /etc/passwd
+sudo grep vagrant -c /etc/group
+sudo grep vagrant  /etc/group
+id vagrant
+id
+tree
+touch listadoUsuarios.txt
+tree
+vim listadoUsuarios.txt 
+ls -l /home
+sudo vim /etc/asswd
+sudo vim /etc/passwd
+sudo useradd -m -s /bin/bash -G profesores 4to_usuario
+groupadd profesores
+sudo groupadd profesores
+grep -i profesores /etc/group
+sudo useradd -m -s /bin/bash -G profesores 4to_usuario
+grep 4to_usuario /etc/passwd
+grep -i profesores /etc/group
+su - 4to_usuario 
+paaswd pepe
+passwd pepe
+passwd 4to_usuario
+sudo passwd 4to_usuario
+su - 4to_usuario 
+ls -l /home/
+ls -l /home//4to_usuario/
+sudo ls -l /home/4to_usuario/
+cd
+mkdir -p  prueba/alumno{1..4}
+tree prueba/
+sudo chown 4to_usuario prueba/alumno4
+tree prueba/
+su - 4to_usuario 
+tree Examenes-UTN/
+tree prueba/
+sudo chown -R 4to_usuario prueba
+echo #?
+su - 4to_usuario 
+sudo find / -name"prueba"
+sudo find / -name "prueba"
+su - 4to_usuario 
+ls -ld /home/4to_usuario/
+ls -ld prueba/
+rm -rf prueba
+mkdir -p prueba2/alumno{1..4}
+tree prueba2/
+sudo chown -R 4to_usuario:4to_usuario prueba2
+ls -ld prueba2/
+ls -ld
+ls -l
+su - 4to_usuario 
+ls -ld
+ls -ld prueba2/
+rm -rf prueba2
+cd prueba2/
+cd alumno1/
+whoami
+tree
+touch validar.txt
+sudo touch validar.txt
+tree
+su - 4to_usuario 
+sudo su -c "whoami" > /prueba2/alumno
+tree
+cd
+sudo su -c "whoami" > prueba2/alumno1/validar.txt 4to_usuario
+ls -ld prueba2/alumno1/validar.txt 
+chmod 775 prueba2/alumno1/validar.txt 
+sudo chmod 775 prueba2/alumno1/validar.txt 
+ls -ld prueba2/alumno1/validar.txt 
+ls -ld prueba2/alumno1/
+sudo su -c "whoami" > prueba2/alumno1/validar.txt 4to_usuario
+sudo chmod 777 prueba2/alumno1/validar.txt 
+sudo su -c "whoami" > prueba2/alumno1/validar.txt 4to_usuario
+sudo chown  4to_usuario:4to_usuario prueba2/alumno1/validar.txt 
+ls -ld prueba2/alumno1/validar.txt 
+sudo chmod --- prueba2/alumno1/validar.txt 
+sudo chmod 000 prueba2/alumno1/validar.txt 
+ls -ld prueba2/alumno1/validar.txt 
+sudo chmod 770 prueba2/alumno1/validar.txt 
+ls -ld prueba2/alumno1/validar.txt 
+sudo su -c "whoami" > prueba2/alumno1/validar.txt 4to_usuario
+sudo chmod 775 prueba2/alumno1/validar.txt 
+sudo su -c "whoami" > prueba2/alumno1/validar.txt 4to_usuario
+sudo chmod 776 prueba2/alumno1/validar.txt 
+sudo su -c "whoami" > prueba2/alumno1/validar.txt 4to_usuario
+ls -ld prueba2/alumno1/validar.txt 
+sudo su -c "whoami" > prueba2/alumno1/validar2.txt 4to_usuario
+tree prueba2/
+sudo su -c "whoami" > prueba2/alumno1/validar2.txt 4to_usuario
+ll
+chmod 775 prueba2/alumno1/validar2.txt 
+ls -ld prueba2/alumno1/
+sudo -c "whoami > prueba2/alumno1/validar2.txt && chmod 775 prueba2/alumno1/validar2.txt"
+sudo su -c "whoami > prueba2/alumno1/validar2.txt && chmod 775 prueba2/alumno1/validar2.txt"
+tree prueba2/
+ls -ld prueba2/alumno1/validar2.txt 
+cat prueba2/alumno1/validar2.txt 
+sudo su -c "whoami > prueba2/alumno1/validar2.txt 4to_usuario && chmod 775 prueba2/alumno1/validar2.txt"
+sudo su -c "whoami > prueba2/alumno1/validar2.txt" 4to_usuario && chmod 775 prueba2/alumno1/validar2.txt
+sudo su -c "whoami > prueba2/alumno1/validar3.txt" 4to_usuario && chmod 775 prueba2/alumno1/validar2.txt
+sudo su -c "whoami > prueba2/alumno1/validar4.txt" 4to_usuario && chmod 776 prueba2/alumno1/validar2.txt
+sudo su -c "whoami > prueba2/alumno1/validar5.txt" 4to_usuario && chmod 777 prueba2/alumno1/validar2.txt
+ls -ld prueba2/alumno1/validar5.txt 
+cd repogit/UTNFRA_SO_1P2C_2024_VILLAGOMEZ/
+ÑÑ
+ll
+cd RTA_SCRIPT_Examen_20241005/
+ll
+vim Punto_C.sh 
+chomod 775 Punto_C.sh 
+chmod 775 Punto_C.sh 
+./Punto_C.sh 
+vim Punto_C.sh 
+./Punto_C.sh listadoUsuarios.txt vagrant
+vim Punto_C.sh 
+./Punto_C.sh listadoUsuarios.txt vagrant
+vim Punto_C.sh 
+./Punto_C.sh listadoUsuarios.txt vagrant
+vim Punto_C.sh 
+./Punto_C.sh listadoUsuarios.txt vagrant
+vim Punto_C.sh 
+./Punto_C.sh listadoUsuarios.txt vagrant
+vim Punto_C.sh 
+./Punto_C.sh listadoUsuarios.txt vagrant
+vim Punto_C.sh 
+./Punto_C.sh listadoUsuarios.txt vagrant
+vim Punto_C.sh 
+./Punto_C.sh listadoUsuarios.txt vagrant
+vim Punto_C.sh 
+./Punto_C.sh listadoUsuarios.txt vagrant
+vim Punto_C.sh 
+./Punto_C.sh listadoUsuarios.txt vagrant
+vim Punto_C.sh 
+./Punto_C.sh listadoUsuarios.txt vagrant
+vim Punto_C.sh 
+./Punto_C.sh listadoUsuarios.txt vagrant
+vim Punto_C.sh 
+sudo grep -i 4to_usuario /etc/passwd
+su - 4to_usuario 
+vim Punto_C.sh 
+sudo grep -i 4to_usuario /etc/group
+id 4to_usuario 
+vim Punto_C.sh 
+./Punto_C.sh listadoUsuarios.txt vagrant
+vim Punto_C.sh 
+ls -ld /home/
+ls -l /home/
+vim listadoUsuarios.txt 
+vim Punto_C.sh 
+cd ../
+ll
+git status
+git add .
+git commit -m "PuntoB_Creacion_Usarios_Grupos"
+git push -u origin main
+git status
+cd RTA_SCRIPT_Examen_20241005/
+vim Punto_C.sh 
+ls -ld
+ls -ld /home/vagrant/Examenes-UTN/alumno_1/
+tree
+touch Punto_C_Permisos.sh
+tree
+vim Punto_C_Permisos.sh 
+ls -ld Punto_C_Permisos.sh 
+chmod 775 Punto_C_Permisos.sh 
+ls -ld Punto_C_Permisos.sh 
+ls -ld /home/vagrant/Examenes-UTN/alumno_1
+ls -ld Punto_C_Permisos.sh 
+vim Punto_C_Permisos.sh 
+cd
+ll
+Examenes-UTN/
+cd Examenes-UTN/
+tree
+ls -ld 
+ls -l
+cd
+cd repogit/
+ll
+cd UTNFRA_SO_1P2C_2024_VILLAGOMEZ/
+cd RTA_SCRIPT_Examen_20241005/
+vim Punto_C_Permisos.sh 
+cs ../
+cd ../
+git status
+tree
+vm RTA_SCRIPT_Examen_20241005/listadoUsuarios.txt 
+vim RTA_SCRIPT_Examen_20241005/listadoUsuarios.txt 
+vm RTA_SCRIPT_Examen_20241005/Punto_B_MontarPersistente.sh 
+vim RTA_SCRIPT_Examen_20241005/Punto_B_MontarPersistente.sh 
+git status
+ll
+git add .
+git commit -m "PuntoC_Permisos.sh"
+git push -u origin main
+cd
+sudo su -c "whoami >/home/vagrant/Examenes-UTN/alumnos_1/Validar1.txt" p1c2_2024_A1
+ls -ld Examenes-UTN/alumno_1
+su - p1c2_2024_A1 -c "whoami > /home/vagrant/Examenes-UTN/alumnos_1/Validar1.txt"
+sudo su -c "whoami >/home/vagrant/Examenes-UTN/alumnos_1/Validar1.txt" p1c2_2024_A1
+ls -ld Examenes-UTN/alumno_1
+touch /home/vagrant/Examenes-UTN/alumno_1/validar.txt && chmod 776 
+touch /home/vagrant/Examenes-UTN/alumno_1/validar.txt
+cd Examenes-UTN/alumno_1
+pwd
+Examenes-UTN/
+cd Examenes-UTN/
+cd alumno_2
+ls -ld
+ll
+cat profesores/
+cd profesores/
+id  p1c2_2024_p1
+id p1c2_2024_A1
+cd ../
+cd alumno_3
+cd alumno_2
+cd alumno_1
+sudo su -c "whoami >/home/vagrant/Examenes-UTN/profesores/Validar1.txt" p1c2_2024_p1
+chmod 777 /home/vagrant/Examenes-UTN/profesores/
+sudo chmod 777 /home/vagrant/Examenes-UTN/profesores/
+ll
+sudo su -c "whoami >/home/vagrant/Examenes-UTN/profesores/Validar1.txt" p1c2_2024_p1
+su - p1c2_2024_p1 -c "whoami > /home/vagrant/Examenes-UTN/profesores/Validar1.txt"
+sudo touch /home/vagrant/Examenes-UTN/alumno_1/validar.txt && sudo chmod 776 /home/vagrant/Examenes-UTN/alumno_1/validar.txt
+sudo su -c "whoami >/home/vagrant/Examenes-UTN/alumno_1/Validar1.txt" p1c2_2024_A1
+tree
+cd ../
+tree
+Examenes-UTN/
+cd Examenes-UTN/
+tree
+tree alumno_1
+sudo touch alumno_1/validar.txt
+tree
+tree alumno_1/
+ll
+cd alumno_1
+sudo touch profesores/validar.txt
+cd profesores/
+ll
+tree
+cd ../
+tree
+sudo touch alumno_2/validar1.txt
+tree
+ll
+sudo su -c "whoami >/home/vagrant/Examenes-UTN/profesores/Validar.txt"  p1c2_2024_p1
+su -  p1c2_2024_p1
+tree
+ls -ld profesores/validar.txt 
+chmod 776 profesores/validar.txt 
+sudo chmod 776 profesores/validar.txt 
+sudo su -c "whoami >/home/vagrant/Examenes-UTN/profesores/Validar.txt"  p1c2_2024_p1
+ls -ld profesores/validar.txt 
+sudo chmod 777 profesores/validar.txt 
+sudo su -c "whoami >/home/vagrant/Examenes-UTN/profesores/Validar.txt"  p1c2_2024_p1
+chmod touch /home/vagrant/Examenes-UTN/alumno_1/validar10.txt
+sudo touch /home/vagrant/Examenes-UTN/alumno_1/validar10.txt
+echo $?
+tree
+tree alumno_
+tree alumno_1
+ll
+chmod 777 alumno_1
+sudo chmod 777 alumno_1
+tree
+ll
+sudo su -c "whoami > /Examenes-UTN/alumnos_1/validar.txt" p1c2_2024_A1
+sudo su -c "whoami > /home/vagrant/Examenes-UTN/alumnos_1/validar.txt" p1c2_2024_A1
+chmod 777 alumno_1/validar.txt
+sudo chmod 777 alumno_1/validar.txt
+sudo su -c "whoami > /home/vagrant/Examenes-UTN/alumnos_1/validar.txt" p1c2_2024_A1
+cd
+ll
+sudo chmod 776 /home/vagrant
+Examenes-UTN/
+cd Examenes-UTN/
+ll
+tree
+sudo su -c "whoami > /home/vagrant/Examenes-UTN/alumnos_1/validar.txt" p1c2_2024_A1
+cd
+ll /home/
+sudo chmod 776 /home/p1c2_2024_A1
+cd Examenes-UTN/
+sudo su -c "whoami > /home/vagrant/Examenes-UTN/alumnos_1/validar.txt" p1c2_2024_A1
+chmod 777 /home/vagrant//Examenes-UTN/alumno_1
+sudo chmod 777 /home/vagrant//Examenes-UTN/alumno_1
+sudo su -c "whoami > /home/vagrant/Examenes-UTN/alumnos_1/validar.txt" p1c2_2024_A1
+cd
+cd repogit/
+ll
+cd UTNFRA_SO_1P2C_2024_VILLAGOMEZ/
+ll
+git status
+pwd
+tree
+history
+cd repogit/
+cd UTNFRA_SO_1P2C_2024_VILLAGOMEZ/
+TREE
+tree
+history /a
+history -a
+history
+cat $HOME/bash_history
+cat $HOME/.bash_history
+cd
+ll
