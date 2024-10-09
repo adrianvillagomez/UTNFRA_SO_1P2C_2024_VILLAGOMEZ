@@ -23,6 +23,6 @@ do
 	echo
 	
 done
-	echo  ls -l /home
+	sudo ls -l /home
 IFS=$ANT_IFS
 

@@ -1,7 +1,6 @@
 #!/bin/bash
 
 
-
 DISCO=$(sudo fdisk -l |grep "10 GiB" |awk '{print $2}'|awk -F ':' '{print $1}')
 
 RTA=$(grep -c $DISCO /etc/fstab )
@@ -22,6 +21,6 @@ if [[ $RTA == 0 ]]; then
 	echo "${DISCO}11 /home/vagrant/Examenes-UTN/profesores          ext4 defaults 0 0"  | sudo tee -a /etc/fstab
 	sudo mount -a
 fi	
-
+sudo df -h
 
 

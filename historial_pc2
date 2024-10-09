@@ -1,0 +1,225 @@
+ll
+ssh-keygen -t ed25519
+cat .ssh/id_ed25519.pub 
+mkdir repogit
+ll
+cd repogit/
+git clone https://github.com/adrianvillagomez/UTNFRA_SO_1P2C_2024_VILLAGOMEZ.git
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+ll
+UTN-FRA_SO_Examenes/202410/script_Precondicion.sh 
+cd UTNFRA_SO_1P2C_2024_VILLAGOMEZ/
+ll
+cd
+sudo apt update && sudo apt install -y tree
+tree
+ll
+history
+ll
+mkdir -p E/{correo/{cartas{1..10},clientes/{cartas{1..10}}}
+tree E/
+rm -rf E
+mkdir -p E/{correo,clientes}
+tree E
+rm -rf E
+mkdir -p E/{correo,cliente}/cartas_{1..10}
+tree E
+rm -rf E
+mkdir -p E/{correo/carteros_{1..10},cliente}/cartas_{1..10}
+tree E
+rm -rf E
+mkdir -p E/{correo/{carteros_{1..2},cartas_{1..4}},cliente/cartas_{1..4}}
+tree E
+mkdir -p Estructura_Asimetrica/{correo/{carteros_{1..10},cartas_{1..100}},cliente/cartas_{1..100}}
+tree Estructura_Asimetrica/ --noreport | pr -T -s' ' -w 80 --column 4
+rm -rf Estructura_Asimetrica/
+ll
+rm -rf E
+cd repogit/
+ll
+cd UTNFRA_SO_1P2C_2024_VILLAGOMEZ/
+LL
+ll
+rm -rf RTA_SCRIPT_Examen_20241009/
+ll
+cd RTA_SCRIPT_Examen_20241005/
+ll
+vim Punto_D.sh 
+chmod 775 Punto_D.sh 
+./Punto_D.sh 
+tree $home/Estructura_Asimetrica
+ls -l /$home
+cd $HOME
+pwd
+ll
+tree Estructura_Asimetrica/ --noreport | pr -T -s' ' -w 80 --column 4
+rm -rf Estructura_Asimetrica/
+ll
+cd repogit/
+cd UTNFRA_SO_1P2C_2024_VILLAGOMEZ/
+ll
+cd RTA_SCRIPT_Examen_20241005/
+LL
+ll
+vim Punto_D.sh 
+./Punto_D.sh 
+ll
+cd ../
+ll
+tree RTA_ARCHIVOS_Examen_20241009/
+/proc/meminfo
+cd
+sudo /proc/meminfo
+cat /proc/menifo
+cat /proc/meminfo
+cat /proc/meminfo |grep MemTotal 
+cat dmidecode -t chassis
+dmidecode -t chassis
+sudo dmidecode -t chassis
+sudo dmidecode -t chassis |grep Chassis
+sudo dmidecode -t chassis |grep Chassis Manufacturer
+man grep
+sudo dmidecode -t chassis |grep -E 'Chassis|Manufacturer'
+cd repogit/
+cd UTNFRA_SO_1P2C_2024_VILLAGOMEZ/
+ll
+cd
+cd /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_VILLAGOMEZ/RTA_SCRIPT_Examen_20241005/
+ll
+vim Punto_E.sh 
+chmod 775 Punto_E.sh 
+chmod 777 Punto_E.sh 
+./Punto_E.sh 
+vim Punto_E.sh 
+./Punto_E.sh 
+cd ../
+tree
+cat RTA_ARCHIVOS_Examen_20241009/Filtro_Basico.txt 
+cd RTA_SCRIPT_Examen_20241005/
+curl -s ifconfig.me
+curl  ifconfig.me
+curl -s ifconfig.me
+cd
+curl -s ifconfig.me > prueba.txt
+ll
+cat prueba.txt 
+curl -s ifconfig.me | awk -F '@' '{print $1}'
+curl -s ifconfig.me | awk -F '@' '{print $2}'
+curl -s ifconfig.me | awk -F '@' '{print $1}' > prueba.txt
+cat prueba.txt 
+whoami
+sudo grep -i vagrant /etc/shadow | awk -F ':' '{print $2}'
+cd repogit/
+ll
+cd UTNFRA_SO_1P2C_2024_VILLAGOMEZ/
+ll
+git remote get-url origin 
+cd RTA_SCRIPT_Examen_20241005/
+ll
+vim Punto_F.sh 
+chmod 775 Punto_F.sh 
+vim Punto_F.sh 
+./Punto_F.sh 
+vim Punto_F.sh 
+./Punto_F.sh 
+vim Punto_F.sh 
+ll
+vim Punto_F.sh 
+./Punto_F.sh 
+cd ../
+ll
+tree RTA_ARCHIVOS_Examen_20241009/
+cat RTA_ARCHIVOS_Examen_20241009//Filtro_Avanzado.txt 
+cd
+sudo fdik -l
+sudo fdisk -l
+cd repogit/UTNFRA_SO_1P2C_2024_VILLAGOMEZ/
+ll
+vim Readme.md
+git status
+git add .
+git commit -m "PuntoF_Readme"
+git config --global user.email adrian132892@gmail.com
+git config --global user.name adrianvillagomez
+git commit -m "PuntoF_Readme"
+git push -u origin main
+ll
+git status
+git push -u origin main
+git push
+git push -u origin main
+ll
+git push -u origin main
+ll
+cd
+ll
+cat .ssh/id_ed25519.pub 
+cd repogit/
+ll
+cd UTNFRA_SO_1P2C_2024_VILLAGOMEZ/
+ll
+git status
+git push 
+git remote set-url origin git@github.com:adrianvillagomez/UTNFRA_SO_1P2C_2024_VILLAGOMEZ.git
+git push
+ll
+vim Readme.md 
+rm Readme.md 
+ll
+vim README.md 
+git add .
+git commit -m "fixREADME"
+git push -u origin main
+vim README.md 
+git add .
+git commit -m "Readme"
+git push -u origin main
+cd RTA_SCRIPT_Examen_20241005/
+ll
+./Punto_A.sh 
+tree /home/vagrant/Examenes-UTN/
+vim Punto_A.sh 
+./Punto_A.sh 
+cd
+ll
+rm -rf Examenes-UTN/
+ll
+cd repogit/UTNFRA_SO_1P2C_2024_VILLAGOMEZ/RTA_SCRIPT_Examen_20241005/
+ll
+./Punto_A.sh 
+./Punto_B.sh 
+ll
+./Punto_B_Formateo.sh 
+ll
+./Punto_B_MontarPersistente.sh 
+df -h
+vim Punto_B_MontarPersistente.sh 
+ll
+./Punto_C.sh 
+vim Punto_C.sh 
+./Punto_C.sh listadoUsuarios.txt vagrant
+vim Punto_C.sh 
+./Punto_C_Permisos.sh 
+ll
+./Punto_D.sh 
+ll
+./Punto_E.sh 
+vim Punto_E.sh 
+cd ../
+ll
+cat RTA_ARCHIVOS_Examen_20241009/Filtro_Basico.txt 
+cd RTA_SCRIPT_Examen_20241005/
+ll
+vim Punto_D.sh 
+vim Punto_E.sh 
+vim Punto_F.sh 
+vim Punto_E.sh 
+./Punto_E.sh 
+cd ../
+ll
+cat RTA_ARCHIVOS_Examen_20241009/Filtro_Basico.txt 
+cat RTA_ARCHIVOS_Examen_20241009/Filtro_Avanzado.txt 
+ll
+history -a
+cd
+ll
