@@ -13,10 +13,8 @@ do
 	GRUPO=$(echo $LINEA |awk -F ',' '{print $2}')
 	if [ $(grep $GRUPO -c /etc/group) == 0 ];then
 		sudo groupadd $GRUPO
-		sudo useradd -m -p "$HASH" -s /bin/bash -G $GRUPO $USUARIO
-	else
-		sudo useradd -m -p "$HASH" -s /bin/bash -G $GRUPO $USUARIO
 	fi
+		sudo useradd -m -p "$HASH" -s /bin/bash -G $GRUPO $USUARIO
 	echo "USUARIO CREADO"	
 	echo "Usuario:$(sudo grep -i $USUARIO /etc/passwd)"
 	echo "Grupo:$(id $USUARIO)"
